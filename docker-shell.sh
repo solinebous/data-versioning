@@ -4,9 +4,9 @@ set -e
 
 export BASE_DIR=$(pwd)
 export SECRETS_DIR=$(pwd)/../secrets/
-export GCS_BUCKET_NAME="cheese-app-data-versioning"
+export GCS_BUCKET_NAME="soline-data-versioning"
 export GCP_PROJECT="ac215-project"
-export GCP_ZONE="us-central1-a"
+export GCP_ZONE="us-central1"
 export GOOGLE_APPLICATION_CREDENTIALS="/secrets/data-service-account.json"
 
 
